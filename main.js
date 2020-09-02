@@ -24,7 +24,7 @@ const formatDate = (timer) => {
 
 	// 如果本地时间反而小于变量时间
 	if (diffValue < 0) {
-		return '不久前';
+		return '刚刚';
 	}
 
 	// 计算差异时间的量级
